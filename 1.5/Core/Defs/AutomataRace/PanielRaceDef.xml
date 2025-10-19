@@ -407,7 +407,7 @@
 					<path>Paniel/Body/Naked_Female</path>
 				</body>
 				<head>
-					<path>Paniel/Heads/PNHead/PNHead1</path>
+					<path>Paniel/Heads/PNHead/PNHead</path>
 				</head>
 				<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
 			</graphicPaths>
@@ -958,6 +958,7 @@
 		</butcherProducts>
 		<recipes>
 			<li>Anesthetize</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SurgicalInspection</li>
 			<li>PN_Disassemble</li>
 			<li>PN_Repair</li>
 			<li>PN_Maintenance</li>

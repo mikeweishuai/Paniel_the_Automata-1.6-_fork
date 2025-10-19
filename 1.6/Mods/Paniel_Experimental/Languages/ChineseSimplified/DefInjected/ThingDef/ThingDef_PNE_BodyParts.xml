@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <PN_ExperimentalEngineCore.label>姬关人形实验型动力核心</PN_ExperimentalEngineCore.label>
+  <PN_ExperimentalEngineCore.description>一个实验性的动力核心。允许姬关人形在不使用燃料的情况下提供动力。使用可能伴随巨大潜在风险。</PN_ExperimentalEngineCore.description>
+
+  <PN_AutoRepairSystem.label>姬关人形自动修复系统</PN_AutoRepairSystem.label>
+  <PN_AutoRepairSystem.description>一个实验性的姬关人形自动修复系统模块。允许姬关人形缓慢的自我修复损伤。</PN_AutoRepairSystem.description>
+
+</LanguageData>

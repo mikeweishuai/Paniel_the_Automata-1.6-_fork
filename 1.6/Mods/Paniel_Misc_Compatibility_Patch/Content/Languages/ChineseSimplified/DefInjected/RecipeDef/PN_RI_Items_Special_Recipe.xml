@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PN_Make_PN_EnergyRoot.label>制作【中品】姬关人形用灵芽</PN_Make_PN_EnergyRoot.label>
+  <PN_Make_PN_EnergyRoot.description>将【中品】灵芽改造为【中品】姬关人形用灵芽。</PN_Make_PN_EnergyRoot.description>
+  <PN_Make_PN_EnergyRoot.jobString>正在制作【中品】姬关人形用灵芽。</PN_Make_PN_EnergyRoot.jobString>
+
+  <PN_Make_PN_EnergyRootHigh.label>制作【上品】姬关人形用灵芽</PN_Make_PN_EnergyRootHigh.label>
+  <PN_Make_PN_EnergyRootHigh.description>将【上品】灵芽改造为【上品】姬关人形用灵芽。</PN_Make_PN_EnergyRootHigh.description>
+  <PN_Make_PN_EnergyRootHigh.jobString>正在制作【上品】姬关人形用灵芽。</PN_Make_PN_EnergyRootHigh.jobString>
+
+  <PN_Make_PN_EnergyRootLow.label>制作【下品】姬关人形用灵芽</PN_Make_PN_EnergyRootLow.label>
+  <PN_Make_PN_EnergyRootLow.description>将【下品】灵芽改造为【下品】姬关人形用灵芽。</PN_Make_PN_EnergyRootLow.description>
+  <PN_Make_PN_EnergyRootLow.jobString>正在制作【下品】姬关人形用灵芽。</PN_Make_PN_EnergyRootLow.jobString>
+
+  <PN_Make_PN_RI_Things_JadeLiquid.label>制作姬关人形用青玉仙露</PN_Make_PN_RI_Things_JadeLiquid.label>
+  <PN_Make_PN_RI_Things_JadeLiquid.description>将青玉仙露改造为姬关人形用青玉仙露。</PN_Make_PN_RI_Things_JadeLiquid.description>
+  <PN_Make_PN_RI_Things_JadeLiquid.jobString>正在制作姬关人形用青玉仙露。</PN_Make_PN_RI_Things_JadeLiquid.jobString>
+
+</LanguageData>

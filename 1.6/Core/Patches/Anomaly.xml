@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+      <mods>
+        <li>Anomaly</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationAdd">
+            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Paniel_Race"]/race</xpath>
+            <value>
+                <canBecomeShambler>true</canBecomeShambler>
+                <knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+                <anomalyKnowledge>3</anomalyKnowledge>
+            </value>
+          </li>
+
+          <li Class="PatchOperationAdd">
+            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Paniel_Race"]/comps</xpath>
+            <value>
+                <li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
+                    <baseEscapeIntervalMtbDays>8</baseEscapeIntervalMtbDays>
+                    <getsColdContainmentBonus>true</getsColdContainmentBonus>
+                </li>
+                <li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
+                    <frequencyTicks>120000</frequencyTicks>
+                    <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+                    <requiresImprisonment>true</requiresImprisonment>
+                </li>
+            </value>
+          </li>
+
+          <li Class="PatchOperationAdd">
+            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Paniel_Race"]/alienRace/graphicPaths/body</xpath>
+            <value>
+                <extendedGraphics>
+                    <Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">
+                        <path>Paniel/Body/Naked_Female</path>
+                    </Hediff>
+                </extendedGraphics>
+            </value>
+          </li>
+
+          <li Class="PatchOperationAdd">
+            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Paniel_Race"]/alienRace/graphicPaths/head</xpath>
+            <value>
+                <extendedGraphics>
+                    <Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">
+                        <path>Paniel/Heads/PNHead/PNHead1</path>
+                    </Hediff>
+                </extendedGraphics>
+            </value>
+          </li>
+
+          <li Class="PatchOperationAdd">
+            <xpath>Defs/MutantDef[defName="Ghoul"]/drugWhitelist</xpath>
+            <value>
+                <li>PN_AutomatonFuel</li>
+            </value>
+          </li>
+
+          <li Class="PatchOperationAdd">
+            <xpath>Defs/AutomataRace.ThingDefInjectDef[defName="Comp_CorpseSelfDestruct_Inject"]/comps</xpath>
+            <value>
+              <li Class="AutomataRace.CompProperties_SelfResurrect">
+                <resurrectDelayTick>200</resurrectDelayTick>
+                <hediffCondition>DeathRefusal</hediffCondition>
+                <removeHediffAfterResurrect>true</removeHediffAfterResurrect>
+              </li>
+            </value>
+          </li>
+
+          <li Class="PatchOperationAdd">
+            <xpath>Defs/AutomataRace.ThingDefInjectDef[defName="Comp_CorpseSelfDestruct_Inject"]/comps</xpath>
+            <value>
+              <li Class="AutomataRace.CompProperties_SelfResurrect">
+                <resurrectDelayTick>200</resurrectDelayTick>
+                <hediffCondition>DeathRefusalCreepJoiner</hediffCondition>
+                <removeHediffAfterResurrect>true</removeHediffAfterResurrect>
+              </li>
+            </value>
+          </li>
+    
+        </operations>
+      </match>
+    </Operation>
+</Patch>

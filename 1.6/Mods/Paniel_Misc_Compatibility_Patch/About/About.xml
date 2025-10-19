@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>Paniel Misc Compatibility Patch</name>
+	<author>Kalo</author>
+	<packageId>kalospacer.PanielMiscCompatibilityPatch</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">Icon/Paniel_Logi</modIconPath>
+	<description>
+Miscellaneous compatibility patch for Paniel the Automata.
+	</description>
+	<modDependencies>
+		<!--<li>
+		  <packageId>AhnDemi.PanieltheAutomata</packageId>
+		  <displayName>Paniel the Automata</displayName>
+		  <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2649305776</steamWorkshopUrl>
+		</li>-->
+	  </modDependencies>
+	  <loadAfter>
+		<li>AhnDemi.PanieltheAutomata</li>
+		<li>kalospacer.AhnDemi.PanieltheAutomata</li>
+		<li>RI.RimImmortal.Core</li>
+	  </loadAfter>
+</ModMetaData>

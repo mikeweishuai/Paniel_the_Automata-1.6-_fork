@@ -11,4 +11,15 @@
     <!--<li IfModActive="kalospacer.PanielExperimental">1.5/Mods/Paniel_Experimental</li>-->
     <li>1.5/Mods/Paniel_Experimental</li>
   </v1.5>
+  <v1.6>
+    <li>1.6/Core</li>
+    <li>Content</li>
+    <li IfModActive="Ludeon.Rimworld.Royalty">1.6/Royalty</li>
+    <li IfModActive="Ludeon.RimWorld.Ideology">1.6/Ideology</li>
+    <li IfModActive="Ludeon.RimWorld.Biotech">1.6/Biotech</li>
+    <li IfModActive="Ludeon.RimWorld.Anomaly">1.6/Anomaly</li>
+
+    <!--<li IfModActive="kalospacer.PanielExperimental">1.6/Mods/Paniel_Experimental</li>-->
+    <li>1.6/Mods/Paniel_Experimental</li>
+  </v1.6>
 </loadFolders>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="RI_RootImplantBase">
+    <defName>PN_EnergyRoot</defName>
+    <label>【Medium quality】Energy root for Automata</label>
+    <description>A cyan middle quality energy root. The energy root is a benign neuroma the size of a mung bean, located inside the prefrontal lobe, an organ that only a very small number of people have. Once you have the energy root, you can feel the Qi in the atmosphere, and indirectly receive a large amount of memory information in a moment.</description>
+    <graphicData>
+      <texPath>Things/Health/EnergyRoot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>2.5</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Usable">
+        <compClass>WhoXiuXian.CompUsableRoot</compClass>
+        <useJob>InstallEnergyRoot</useJob>
+        <useLabel>Inject {0_label} to become a cultivator</useLabel>
+      </li>
+      <li Class="WhoXiuXian.CompProperties_UseEffectInstallRoot">
+        <hediffDef>Hediff_RI_EnergyRoot</hediffDef>
+        <Severity>0.5</Severity>
+        <bodyPart>PNBrain</bodyPart>
+        <requiresPsychicallySensitive>false</requiresPsychicallySensitive>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>PN_Make_PN_EnergyRoot</defName>
+    <label>make 【Medium quality】Energy root for Automata</label>
+    <description>make 【Medium quality】Energy root for Automata.</description>
+    <jobString>Making 【Medium quality】Energy root for Automata.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EnergyRoot</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <PN_EnergyRoot>1</PN_EnergyRoot>
+    </products>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <ThingDef ParentName="RI_RootImplantBase">
+    <defName>PN_EnergyRootHigh</defName>
+    <label>【Best quality】Energy root for Automata</label>
+    <description>A cyan high quality energy root. The energy root is a benign neuroma the size of a mung bean, located inside the prefrontal lobe, an organ that only a very small number of people have. Once you have the energy root, you can feel the Qi in the atmosphere, and indirectly receive a large amount of memory information in a moment.\n\nThis energy root is extremely active and can speed up the efficiency of Qi acquisition.</description>
+    <graphicData>
+      <texPath>Things/Health/EnergyRootHigh</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <Mass>2.5</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Usable">
+        <compClass>WhoXiuXian.CompUsableRoot</compClass>
+        <useJob>InstallEnergyRoot</useJob>
+        <useLabel>Inject {0_label} to become a cultivator</useLabel>
+      </li>
+      <li Class="WhoXiuXian.CompProperties_UseEffectInstallRoot">
+        <hediffDef>Hediff_RI_EnergyRoot</hediffDef>
+        <bodyPart>PNBrain</bodyPart>
+        <Severity>1</Severity>
+        <requiresPsychicallySensitive>false</requiresPsychicallySensitive>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>PN_Make_PN_EnergyRootHigh</defName>
+    <label>make 【Best quality】Energy root for Automata</label>
+    <description>make 【Best quality】Energy root for Automata.</description>
+    <jobString>Making 【Best quality】Energy root for Automata.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EnergyRootHigh</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <PN_EnergyRootHigh>1</PN_EnergyRootHigh>
+    </products>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <ThingDef ParentName="RI_RootImplantBase">
+    <defName>PN_EnergyRootLow</defName>
+    <label>【Low quality】Energy root for Automata</label>
+    <description>A cyan low quality energy root. The energy root is a benign neuroma the size of a mung bean, located inside the prefrontal lobe, an organ that only a very small number of people have. Once you have the energy root, you can feel the Qi in the atmosphere, and indirectly receive a large amount of memory information in a moment.\n\nThis energy root is not very active, and the acquisition of Qi is slower than the average cultivator.</description>
+    <graphicData>
+      <texPath>Things/Health/EnergyRootLow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>2.5</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Usable">
+        <compClass>WhoXiuXian.CompUsableRoot</compClass>
+        <useJob>InstallEnergyRoot</useJob>
+        <useLabel>Inject {0_label} to become a cultivator</useLabel>
+      </li>
+      <li Class="WhoXiuXian.CompProperties_UseEffectInstallRoot">
+        <hediffDef>Hediff_RI_EnergyRoot</hediffDef>
+        <Severity>0.3</Severity>
+        <bodyPart>PNBrain</bodyPart>
+        <requiresPsychicallySensitive>false</requiresPsychicallySensitive>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>PN_Make_PN_EnergyRootLow</defName>
+    <label>make 【Low quality】Energy root for Automata</label>
+    <description>make 【Low quality】Energy root for Automata.</description>
+    <jobString>Making 【Low quality】Energy root for Automata.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EnergyRootLow</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <PN_EnergyRootLow>1</PN_EnergyRootLow>
+    </products>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <ThingDef ParentName="RI_RootImplantBase">
+    <defName>PN_RI_Things_JadeLiquid</defName>
+    <label>QingMing jade wine for Automata</label>
+    <description>A medicinal wine that makes you feel wonderful. After drinking, one can briefly gain a connection with the celestial deity and receive a soul shock directly from the celestial deity. This will forcibly activate a person's energy root, and if there is no energy root, part of the Qi in the wine will be used to create a lower energy root. The effect of this medicinal wine is varied, and it seems that the effect of all people is not the same. Most people have heard a man who named Thran's laugh, or a few gossip, or a hiccup. For a moment their souls seem to travel through the endless darkness and see themselves from birth to the present, and when they come to their senses, it seems as if they have had a dream, but the slightly sore forehead reminds them that they have become cultivator.</description>
+    <graphicData>
+      <texPath>Things/Health/RI_Things_JadeLiquid</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>2.5</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Usable">
+        <compClass>WhoXiuXian.CompUsableRoot</compClass>
+        <useJob>InstallEnergyRoot</useJob>
+        <useLabel>Drink {0_label} to please the Thran and become a cultivator</useLabel>
+      </li>
+      <li Class="WhoXiuXian.CompProperties_UseEffectInstallRoot">
+        <hediffDef>Hediff_RI_EnergyRoot</hediffDef>
+        <Severity>0.3</Severity>
+        <bodyPart>PNBrain</bodyPart>
+        <requiresPsychicallySensitive>false</requiresPsychicallySensitive>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>PN_Make_PN_RI_Things_JadeLiquid</defName>
+    <label>make QingMing jade wine for Automata</label>
+    <description>make QingMing jade wine for Automata.</description>
+    <jobString>Making QingMing jade wine for Automata.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>PN_AutomatonBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RI_Things_JadeLiquid</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <PN_RI_Things_JadeLiquid>1</PN_RI_Things_JadeLiquid>
+    </products>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+</Defs>

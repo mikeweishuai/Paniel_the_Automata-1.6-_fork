@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<TraitDef>
+    <defName>PN_PerfectMemory</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>auto memories</label>
+        <description>{PAWN_nameDef} is automata, automata auto memory system logging all things she saw. {PAWN_possessive} skills will never decay.</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

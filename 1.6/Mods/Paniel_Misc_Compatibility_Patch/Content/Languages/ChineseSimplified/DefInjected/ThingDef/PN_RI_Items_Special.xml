@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- EN: 【Medium quality】Energy root -->
+	<PN_EnergyRoot.label>【中品】姬关人形用灵芽</PN_EnergyRoot.label>
+	<!-- EN: A cyan middle quality energy root. The energy root is a benign neuroma the size of a mung bean, located inside the prefrontal lobe, an organ that only a very small number of people have. Once you have the energy root, you can feel the Qi in the atmosphere, and indirectly receive a large amount of memory information in a moment. -->
+	<PN_EnergyRoot.description>一颗青色的中品灵芽。\n\n灵芽是一个绿豆大小的良性神经瘤，位于前额叶内部，只有极少数人拥有此器官。而一旦拥有灵芽，就可以感受到大气中灵气的存在，并在一瞬间接收到大量的记忆信息。</PN_EnergyRoot.description>
+	<!-- EN: Inject {0_label} to become a cultivator -->
+	<PN_EnergyRoot.comps.CompUsableRoot.useLabel>注入{0_label}，变成修炼者</PN_EnergyRoot.comps.CompUsableRoot.useLabel>
+
+	<!-- EN: 【Best quality】Energy root -->
+	<PN_EnergyRootHigh.label>【上品】姬关人形用灵芽</PN_EnergyRootHigh.label>
+	<!-- EN: A cyan high quality energy root. The energy root is a benign neuroma the size of a mung bean, located inside the prefrontal lobe, an organ that only a very small number of people have. Once you have the energy root, you can feel the Qi in the atmosphere, and indirectly receive a large amount of memory information in a moment.\n\nThis energy root is extremely active and can speed up the efficiency of Qi acquisition. -->
+	<PN_EnergyRootHigh.description>一颗青色的上品灵芽。\n\n灵芽是一个绿豆大小的良性神经瘤，位于前额叶内部，只有极少数人拥有此器官。而一旦拥有灵芽，就可以感受到大气中灵气的存在，并在一瞬间接收到大量的记忆信息。这颗灵芽极其活跃，可以加快灵气获取的效率。</PN_EnergyRootHigh.description>
+	<!-- EN: Inject {0_label} to become a cultivator -->
+	<PN_EnergyRootHigh.comps.CompUsableRoot.useLabel>注入{0_label}，变成修炼者</PN_EnergyRootHigh.comps.CompUsableRoot.useLabel>
+
+	<!-- EN: 【Low quality】Energy root -->
+	<PN_EnergyRootLow.label>【下品】姬关人形用灵芽</PN_EnergyRootLow.label>
+	<!-- EN: A cyan low quality energy root. The energy root is a benign neuroma the size of a mung bean, located inside the prefrontal lobe, an organ that only a very small number of people have. Once you have the energy root, you can feel the Qi in the atmosphere, and indirectly receive a large amount of memory information in a moment.\n\nThis energy root is not very active, and the acquisition of Qi is slower than the average cultivator. -->
+	<PN_EnergyRootLow.description>一颗青色的下品灵芽。\n\n灵芽是一个绿豆大小的良性神经瘤，位于前额叶内部，只有极少数人拥有此器官。而一旦拥有灵芽，就可以感受到大气中灵气的存在，并在一瞬间接收到大量的记忆信息。这颗灵芽不太活跃，对灵气的获取比一般修炼者慢一些。</PN_EnergyRootLow.description>
+	<!-- EN: Inject {0_label} to become a cultivator -->
+	<PN_EnergyRootLow.comps.CompUsableRoot.useLabel>注入{0_label}，变成修炼者</PN_EnergyRootLow.comps.CompUsableRoot.useLabel>
+
+	<!-- EN: QingMing jade wine -->
+	<PN_RI_Things_JadeLiquid.label>姬关人形用青玉仙露</PN_RI_Things_JadeLiquid.label>
+	<!-- EN: A medicinal wine that makes you feel wonderful. After drinking, one can briefly gain a connection with the celestial deity and receive a soul shock directly from the celestial deity. This will forcibly activate a person's energy root, and if there is no energy root, part of the Qi in the wine will be used to create a lower energy root. The effect of this medicinal wine is varied, and it seems that the effect of all people is not the same. Most people have heard a man who named Thran's laugh, or a few gossip, or a hiccup. For a moment their souls seem to travel through the endless darkness and see themselves from birth to the present, and when they come to their senses, it seems as if they have had a dream, but the slightly sore forehead reminds them that they have become cultivator. -->
+	<PN_RI_Things_JadeLiquid.description>一种能让人产生奇妙感觉的药酒。喝下后可以令人短暂获得与天仙的连接，并直接从天仙那里受到一股灵魂冲击。这将会强行激活一个人的灵芽，如果没有灵芽，则会用药酒中的部分灵气制造一颗下品灵芽。\n\n这种药酒的效果众说纷纭，似乎所有人的效果都不相同。大部分人都听到了一个自称为喰仙的人的笑声，抑或是几句闲言碎语，或者是打嗝声。他们的灵魂在一瞬间仿佛穿越到了一望无际的黑暗中，并看到了自己从出生到现在的景象，而等他们回过神来，似乎又觉得是做了一场梦，但微微作痛的前额会提醒他们，他们已经成为了修炼者。</PN_RI_Things_JadeLiquid.description>
+	<!-- EN: Drink {0_label} to please the Thran and become a cultivator -->
+	<PN_RI_Things_JadeLiquid.comps.CompUsableRoot.useLabel>喝下{0_label}以取悦喰仙，成为修炼者</PN_RI_Things_JadeLiquid.comps.CompUsableRoot.useLabel>
+
+</LanguageData>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <PN_InstallExperimentalEngineCore.label>安装实验型动力核心</PN_InstallExperimentalEngineCore.label>
+  <PN_InstallExperimentalEngineCore.description>安装实验型动力核心</PN_InstallExperimentalEngineCore.description>
+  <PN_InstallExperimentalEngineCore.jobString>安装实验型动力核心中</PN_InstallExperimentalEngineCore.jobString>
+  <PN_RemoveExperimentalEngineCore.label>移除实验型动力核心</PN_RemoveExperimentalEngineCore.label>
+  <PN_RemoveExperimentalEngineCore.description>移除实验型动力核心</PN_RemoveExperimentalEngineCore.description>
+  <PN_RemoveExperimentalEngineCore.jobString>移除实验型动力核心中</PN_RemoveExperimentalEngineCore.jobString>
+
+  <PN_InstallAutoRepairSystem.label>安装自动修复系统</PN_InstallAutoRepairSystem.label>
+  <PN_InstallAutoRepairSystem.description>安装自动修复系统</PN_InstallAutoRepairSystem.description>
+  <PN_InstallAutoRepairSystem.jobString>安装自动修复系统中</PN_InstallAutoRepairSystem.jobString>
+  <PN_RemoveAutoRepairSystem.label>移除自动修复系统</PN_RemoveAutoRepairSystem.label>
+  <PN_RemoveAutoRepairSystem.description>移除自动修复系统</PN_RemoveAutoRepairSystem.description>
+  <PN_RemoveAutoRepairSystem.jobString>移除自动修复系统中</PN_RemoveAutoRepairSystem.jobString>
+
+</LanguageData>

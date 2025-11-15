@@ -962,6 +962,7 @@
 			<li>PN_Disassemble</li>
 			<li>PN_Repair</li>
 			<li>PN_Maintenance</li>
+			<li>PN_Upgrade</li>
 		  </recipes>
 		  <comps>
 			<li Class="AutomataRace.CompPropeties_AutomataDataHolder"></li>

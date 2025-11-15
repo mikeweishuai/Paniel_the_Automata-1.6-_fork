@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs>
+<Defs>	
   <RecipeDef Name="PN_Surgery" Abstract="True">
     <effectWorking>Repair</effectWorking>
     <soundWorking>Interact_Repair</soundWorking>
@@ -15,20 +15,7 @@
         </filter>
         <count>1</count>
       </li>
-      <!--<li>
-        <filter>
-          <categories>
-            <li>Medicine</li>
-          </categories>
-        </filter>
-        <count>1</count>
-      </li>-->
     </ingredients>
-    <!--<fixedIngredientFilter>
-      <categories>
-        <li>Medicine</li>
-      </categories>
-    </fixedIngredientFilter>-->
   </RecipeDef>
 
   <RecipeDef ParentName="PN_Surgery">
@@ -49,7 +36,7 @@
 
   <RecipeDef ParentName="PN_Surgery">
     <defName>PN_Repair</defName>
-    <label>repair</label>
+    <label>repair11</label>
     <description>Reparing.</description>
     <workerClass>AutomataRace.Recipe_Repair</workerClass>
     <jobString>Reparing.</jobString>
@@ -72,7 +59,32 @@
     </ingredients>
   </RecipeDef>
 
-  <RecipeDef ParentName="PN_Surgery">
+	<RecipeDef ParentName="PN_Surgery">
+		<defName>PN_Upgrade</defName>
+		<label>Upgrade</label>
+		<description>Upgrading.</description>
+    <workerClass>AutomataUtility.Recipe_Upgrade</workerClass>
+		<workAmount>200</workAmount>
+		<hideBodyPartNames>true</hideBodyPartNames>
+		<isViolation>false</isViolation>
+		<targetsBodyPart>false</targetsBodyPart>
+		<surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>Test_flu</defName>
+		<label>Add Flu</label>
+		<workerClass>Recipe_AddHediff</workerClass>
+		<addsHediff>Flu</addsHediff>
+    <targetsBodyPart>false</targetsBodyPart>
+    <workAmount>200</workAmount>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<RecipeDef ParentName="PN_Surgery">
     <defName>PN_Maintenance</defName>
     <label>maintenance</label>
     <description>Maintenance.</description>

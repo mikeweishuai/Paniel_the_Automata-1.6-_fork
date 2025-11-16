@@ -77,7 +77,7 @@
       <Mass>15</Mass>
       <Flammability>0.4</Flammability>
       <StuffEffectMultiplierArmor>0.93</StuffEffectMultiplierArmor>
-      <Insulation_Cold>36</Insulation_Cold>
+      <Insulation_Cold>70</Insulation_Cold>
       <Insulation_Heat>12</Insulation_Heat>
       <EquipDelay>13</EquipDelay>
     </statBases>
@@ -86,6 +86,10 @@
       <MeleeDodgeChance>3</MeleeDodgeChance>
       <IncomingDamageFactor>-0.1</IncomingDamageFactor>
       <Flammability>-0.60</Flammability>
+      <StaggerDurationFactor>-0.5</StaggerDurationFactor>
+      <MeleeDamageFactor MayRequire="Ludeon.RimWorld.Biotech">0.15</MeleeDamageFactor>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.3</SlaveSuppressionOffset>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.3</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -169,6 +173,8 @@
       <AimingDelayFactor>-0.15</AimingDelayFactor>
       <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
       <MeleeHitChance>3</MeleeHitChance>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.68</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -239,7 +245,7 @@
       <Mass>15</Mass>
       <Flammability>0.4</Flammability>
       <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
-      <Insulation_Cold>36</Insulation_Cold>
+      <Insulation_Cold>70</Insulation_Cold>
       <Insulation_Heat>12</Insulation_Heat>
       <EquipDelay>10</EquipDelay>
     </statBases>
@@ -249,6 +255,7 @@
       <ConstructSuccessChance>0.20</ConstructSuccessChance>
       <FixBrokenDownBuildingSuccessChance>0.20</FixBrokenDownBuildingSuccessChance>
       <Flammability>-0.20</Flammability>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.3</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -332,6 +339,7 @@
       <MiningYield>0.10</MiningYield>
       <ConstructSuccessChance>0.10</ConstructSuccessChance>
       <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.68</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -409,6 +417,7 @@
       <MiningYield>0.10</MiningYield>
       <ConstructSuccessChance>0.10</ConstructSuccessChance>
       <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.68</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -486,6 +495,7 @@
       <MiningYield>0.10</MiningYield>
       <ConstructSuccessChance>0.10</ConstructSuccessChance>
       <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.68</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -556,7 +566,7 @@
       <Mass>15</Mass>
       <Flammability>0.4</Flammability>
       <StuffEffectMultiplierArmor>0.81</StuffEffectMultiplierArmor>
-      <Insulation_Cold>36</Insulation_Cold>
+      <Insulation_Cold>70</Insulation_Cold>
       <Insulation_Heat>12</Insulation_Heat>
       <EquipDelay>10</EquipDelay>
     </statBases>
@@ -569,6 +579,7 @@
       <NegotiationAbility>0.20</NegotiationAbility>
       <SocialImpact>0.20</SocialImpact>
       <Flammability>-0.20</Flammability>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.3</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -655,6 +666,7 @@
       <MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
       <NegotiationAbility>0.10</NegotiationAbility>
       <SocialImpact>0.10</SocialImpact>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.68</VacuumResistance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>

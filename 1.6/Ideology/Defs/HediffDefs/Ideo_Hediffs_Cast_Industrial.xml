@@ -84,15 +84,19 @@
         <capMods>
           <li>
             <capacity>Moving</capacity>
-            <offset>0.10</offset>
+            <postFactor>1.5</postFactor>
           </li>
         </capMods>
         <statOffsets>
           <MeleeHitChance>2</MeleeHitChance>
           <MeleeDodgeChance>2</MeleeDodgeChance>
           <IncomingDamageFactor>-0.15</IncomingDamageFactor>
-          <MeleeDamageFactor MayRequire="Ludeon.RimWorld.Biotech">0.10</MeleeDamageFactor>
         </statOffsets>
+        <statFactors>
+          <MeleeDamageFactor MayRequire="Ludeon.RimWorld.Biotech">1.5</MeleeDamageFactor>
+          <MeleeCooldownFactor>0.5</MeleeCooldownFactor>
+          <StaggerDurationFactor>0</StaggerDurationFactor>
+        </statFactors>
       </li>
     </stages>
     <comps>
@@ -137,7 +141,6 @@
         <statOffsets>
           <MeleeHitChance>-4</MeleeHitChance>
           <MeleeDodgeChance>-4</MeleeDodgeChance>
-          <IncomingDamageFactor>-0.25</IncomingDamageFactor>
           <MeleeDamageFactor MayRequire="Ludeon.RimWorld.Biotech">-0.20</MeleeDamageFactor>
         </statOffsets>
       </li>

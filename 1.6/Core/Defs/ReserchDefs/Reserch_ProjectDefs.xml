@@ -348,4 +348,52 @@
     <researchViewY>2.8</researchViewY>
   </ResearchProjectDef>
 
+  <!-- ========== Research for Upgrading Paniel ========== -->
+  <ResearchProjectDef>
+    <defName>PNRP_Upgrade_A</defName>
+    <label>Basic upgrades</label>
+    <description>Research the ability to upgrade the automatas to limited quality. You can conduct certain surgery to upgrade your automata up to Good quality</description>
+    <tab>PN_technology</tab>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>PNRP_Production</li>
+    </prerequisites>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>5.6</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_Upgrade_B</defName>
+    <label>Advanced upgrades</label>
+    <description>Research the ability to upgrade the automatas to high quality. You can conduct certain surgery to upgrade your automata up to Excellent quality</description>
+    <tab>PN_technology</tab>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <prerequisites>
+      <li>PNRP_Upgrade_A</li>
+    </prerequisites>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>5.6</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PNRP_Upgrade_C</defName>
+    <label>Advanced upgrades</label>
+    <description>Research the ability to upgrade the automatas to the highest quality. You can conduct certain surgery to upgrade your automata up to Legendary quality</description>
+    <tab>PN_technology</tab>
+    <baseCost>4500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>PNRP_Upgrade_B</li>
+    </prerequisites>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>5.6</researchViewY>
+  </ResearchProjectDef>
 </Defs>

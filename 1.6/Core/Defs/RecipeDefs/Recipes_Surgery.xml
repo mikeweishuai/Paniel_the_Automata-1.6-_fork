@@ -95,6 +95,7 @@
 		<targetsBodyPart>false</targetsBodyPart>
 		<surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
     <workerClass>AutomataUtility.Recipe_Upgrade_to_Good</workerClass>
+    <researchPrerequisite>PNRP_Upgrade_A</researchPrerequisite>
     <ingredients Inherit="true">
       <li>
         <filter>
@@ -125,6 +126,7 @@
 		<targetsBodyPart>false</targetsBodyPart>
 		<surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
     <workerClass>AutomataUtility.Recipe_Upgrade_to_Excellent</workerClass>
+    <researchPrerequisite>PNRP_Upgrade_B</researchPrerequisite>
     <ingredients Inherit="true">
       <li>
         <filter>
@@ -155,6 +157,7 @@
 		<targetsBodyPart>false</targetsBodyPart>
 		<surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
     <workerClass>AutomataUtility.Recipe_Upgrade_to_Masterwork</workerClass>
+    <researchPrerequisite>PNRP_Upgrade_C</researchPrerequisite>
     <ingredients Inherit="true">
       <li>
         <filter>
@@ -201,6 +204,7 @@
 		<targetsBodyPart>false</targetsBodyPart>
 		<surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
     <workerClass>AutomataUtility.Recipe_Upgrade_to_Legendary</workerClass>
+    <researchPrerequisite>PNRP_Upgrade_C</researchPrerequisite>
     <ingredients Inherit="true">
       <li>
         <filter>

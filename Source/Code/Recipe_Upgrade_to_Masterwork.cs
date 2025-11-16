@@ -1,0 +1,19 @@
+using System.Collections.Generic;
+using Verse;
+using RimWorld;
+
+namespace AutomataUtility;
+
+public class Recipe_Upgrade_to_Masterwork: Recipe_Surgery
+{
+    public override bool AvailableOnNow(Thing thing, BodyPartRecord part = null)
+    {
+        Log.Warning($"{base.AvailableOnNow(thing, part)} {Recipe_Upgrade.isAvailableFor(thing as Pawn, "PN_SyncExcellent")}");
+        return base.AvailableOnNow(thing, part) && Recipe_Upgrade.isAvailableFor(thing as Pawn, "PN_SyncExcellent");
+    }
+
+    public override void ApplyOnPawn(Pawn pawn, BodyPartRecord part, Pawn billDoer, List<Thing> ingredients, Bill bill)
+    {
+        Recipe_Upgrade.upgrade(pawn);
+    }
+}

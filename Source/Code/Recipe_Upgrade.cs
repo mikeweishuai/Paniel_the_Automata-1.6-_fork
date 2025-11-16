@@ -5,15 +5,34 @@ using System.Linq;
 
 namespace AutomataUtility;
 
-public class Recipe_Upgrade : Recipe_Surgery
+public static class Recipe_Upgrade
 {
 	private static readonly Dictionary<string, string> upgradeMapping = new Dictionary<string, string>
 	{
-		{ "PN_SyncExcellent_Combat", "PN_SyncMasterwork_Combat" },
-		{ "PN_SyncExcellent_Domestic", "PN_SyncMasterwork_Domestic" },
-		{ "PN_SyncExcellent_Engineer", "PN_SyncMasterwork_Engineer" }
+		{ "PN_SyncNormal_Combat",       "PN_SyncGood_Combat" },
+		{ "PN_SyncNormal_Domestic",     "PN_SyncGood_Domestic" },
+		{ "PN_SyncNormal_Engineer",     "PN_SyncGood_Engineer" },
+		{ "PN_SyncGood_Combat",         "PN_SyncExcellent_Combat" },
+		{ "PN_SyncGood_Domestic",       "PN_SyncExcellent_Domestic" },
+		{ "PN_SyncGood_Engineer",       "PN_SyncExcellent_Engineer" },
+		{ "PN_SyncExcellent_Combat",    "PN_SyncMasterwork_Combat" },
+		{ "PN_SyncExcellent_Domestic",  "PN_SyncMasterwork_Domestic" },
+		{ "PN_SyncExcellent_Engineer",  "PN_SyncMasterwork_Engineer" },
+		{ "PN_SyncMasterwork_Combat",   "PN_SyncLegendary_Combat" },
+		{ "PN_SyncMasterwork_Domestic", "PN_SyncLegendary_Domestic" },
+		{ "PN_SyncMasterwork_Engineer", "PN_SyncLegendary_Engineer" }
 	};
-	public override void ApplyOnPawn(Pawn pawn, BodyPartRecord part, Pawn billDoer, List<Thing> ingredients, Bill bill)
+
+	public static bool isAvailableFor(Pawn pawn, string quality)
+	{
+
+		Hediff current = pawn.health.hediffSet.hediffs.FirstOrDefault(h => upgradeMapping.ContainsKey(h.def.defName));
+		// Log.Warning($"ttt {current.def.defName} {quality} {current.def.defName.StartsWith(quality)}");
+		if (current == null) return false;
+		return current.def.defName.StartsWith(quality);
+	}
+	
+	public static void upgrade(Pawn pawn)
 	{
 
 		Hediff existing = pawn.health.hediffSet.hediffs.FirstOrDefault(h => upgradeMapping.ContainsKey(h.def.defName));

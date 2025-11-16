@@ -962,7 +962,10 @@
 			<li>PN_Disassemble</li>
 			<li>PN_Repair</li>
 			<li>PN_Maintenance</li>
-			<li>PN_Upgrade</li>
+			<li>PN_Upgrade_to_Good</li>
+			<li>PN_Upgrade_to_Excellent</li>
+			<li>PN_Upgrade_to_Masterwork</li>
+			<li>PN_Upgrade_to_Legendary</li>
 		  </recipes>
 		  <comps>
 			<li Class="AutomataRace.CompPropeties_AutomataDataHolder"></li>

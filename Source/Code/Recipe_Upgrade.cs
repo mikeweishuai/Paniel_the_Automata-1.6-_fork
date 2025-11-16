@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Verse;
 using RimWorld;
 using System.Linq;
+using UnityEngine;
 
 namespace AutomataUtility;
 
@@ -50,6 +51,13 @@ public static class Recipe_Upgrade
         }
 		
         Hediff upgraded = HediffMaker.MakeHediff(HediffDef.Named(upgradeMapping[existing.def.defName]), pawn);
-        pawn.health.AddHediff(upgraded);
+		pawn.health.AddHediff(upgraded);
+		
+		foreach (var skill in pawn.skills.skills)
+        {
+
+            skill.Level = Mathf.Clamp(skill.Level + 2, 0, 20);
+            skill.Notify_SkillDisablesChanged();
+        }
 	}
 }

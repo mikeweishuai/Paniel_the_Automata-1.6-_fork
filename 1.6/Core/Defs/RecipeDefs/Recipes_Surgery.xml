@@ -68,7 +68,7 @@
     <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
     <workSkill>Medicine</workSkill>
     <workSkillLearnFactor>16</workSkillLearnFactor>
-		<workAmount>200</workAmount>
+		<workAmount>2000</workAmount>
 		<hideBodyPartNames>true</hideBodyPartNames>
 		<isViolation>false</isViolation>
 		<targetsBodyPart>false</targetsBodyPart>
@@ -89,7 +89,7 @@
 		<defName>PN_Upgrade_to_Good</defName>
 		<label>Upgrade to Good quality</label>
     <description>Upgrading.</description>
-		<workAmount>200</workAmount>
+		<workAmount>2000</workAmount>
 		<hideBodyPartNames>true</hideBodyPartNames>
 		<isViolation>false</isViolation>
 		<targetsBodyPart>false</targetsBodyPart>
@@ -120,7 +120,7 @@
 		<defName>PN_Upgrade_to_Excellent</defName>
 		<label>Upgrade to Excellent quality</label>
     <description>Upgrading.</description>
-		<workAmount>200</workAmount>
+		<workAmount>2000</workAmount>
 		<hideBodyPartNames>true</hideBodyPartNames>
 		<isViolation>false</isViolation>
 		<targetsBodyPart>false</targetsBodyPart>
@@ -151,7 +151,7 @@
 		<defName>PN_Upgrade_to_Masterwork</defName>
 		<label>Upgrade to Masterwork quality</label>
     <description>Upgrading.</description>
-		<workAmount>200</workAmount>
+		<workAmount>2000</workAmount>
 		<hideBodyPartNames>true</hideBodyPartNames>
 		<isViolation>false</isViolation>
 		<targetsBodyPart>false</targetsBodyPart>
@@ -198,7 +198,7 @@
 		<defName>PN_Upgrade_to_Legendary</defName>
 		<label>Upgrade to Legendary quality</label>
     <description>Upgrading.</description>
-		<workAmount>200</workAmount>
+		<workAmount>2000</workAmount>
 		<hideBodyPartNames>true</hideBodyPartNames>
 		<isViolation>false</isViolation>
 		<targetsBodyPart>false</targetsBodyPart>
